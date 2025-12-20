@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 import mdx from "@astrojs/mdx";
 
-import cloudflare from "@astrojs/cloudflare";
+import vercel from "@astrojs/vercel";
 
 // https://astro.build/config
 export default defineConfig({
@@ -18,7 +18,7 @@ export default defineConfig({
     },
   },
 
-  adapter: cloudflare(),
+  adapter: vercel(),
 
   integrations: [mdx()],
 

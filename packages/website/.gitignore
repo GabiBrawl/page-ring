@@ -26,5 +26,5 @@ pnpm-debug.log*
 # generated
 public/embed/
 
-# wrangler
-.wrangler/
+# vercel
+.vercel/
