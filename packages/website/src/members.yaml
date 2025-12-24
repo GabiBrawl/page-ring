@@ -24,3 +24,8 @@
   name: "josh"
   url: "https://os.slitrostudio.me"
   buttonUrl: /buttons/slitro.png
+
+- id: bunnyguy
+  name: "bunnyguy"
+  url: "https://sundial.city"
+  buttonUrl: /buttons/bunnyguy.gif
