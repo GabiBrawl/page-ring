@@ -29,3 +29,8 @@
   name: "vejas"
   url: "https://vejas.zip"
   buttonUrl: "https://vejas.zip/lasvejas.gif"
+
+- id: bunnyguy
+  name: "bunnyguy"
+  url: "https://sundial.city"
+  buttonUrl: /buttons/bunnyguy.gif
