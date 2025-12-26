@@ -19,6 +19,7 @@ const getHostname = (url: string) => {
 };
 
 const app = new Hono().basePath("/api/v1");
+// CORS for embed endpoints - allow credentials
 app.use(
   "/embed/*",
   cors({
@@ -26,6 +27,15 @@ app.use(
     allowMethods: ["GET", "POST", "OPTIONS"],
     allowHeaders: ["Content-Type"],
     credentials: true,
+  }),
+);
+// CORS for other endpoints
+app.use(
+  "/*",
+  cors({
+    origin: (origin) => origin,
+    allowMethods: ["GET", "POST", "OPTIONS"],
+    allowHeaders: ["Content-Type"],
   }),
 );
 
