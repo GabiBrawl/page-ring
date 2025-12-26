@@ -84,3 +84,9 @@
   name: "miniaturity"
   url: "https://minipa.ws/"
   buttonUrl: "https://minipa.ws/images/mini.png"
+
+
+- id: vqb
+  name: "vqb"
+  url: "https://vvqb.dev/"
+  buttonUrl: "https://vvqb.dev/88x31/vvqb_dev.gif"
