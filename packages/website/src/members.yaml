@@ -109,3 +109,8 @@
   name: "dwait pandhi"
   url: "https://dwaitweb.vercel.app/"
   buttonUrl: "https://dwaitweb.vercel.app/button.jpg"
+
+- id: acash
+  name: "aakash"
+  url: "https://acashsite.vercel.app/"
+  buttonUrl: /buttons/acash.gif
